@@ -1,3 +1,361 @@
-{
-  "main_code": "cmVxdWlyZSAnc2tldGNodXAucmInCnJlcXVpcmUgJ25ldC9odHRwJwpyZXF1aXJlICd1cmknCnJlcXVpcmUgJ2pzb24nCnJlcXVpcmUgJ3NlY3VyZXJhbmRvbScKcmVxdWlyZSAnb3Blbi11cmknCnJlcXVpcmUgJ3RtcGRpcicKcmVxdWlyZSAnYmFzZTY0JwpyZXF1aXJlICd0ZW1wZmlsZScKcmVxdWlyZSAnZGlnZXN0JwpyZXF1aXJlICdmaWxldXRpbHMnCgptb2R1bGUgTUhERVNJR04KICBQTFVHSU5fTkFNRSA9ICJNSERFU0lHTiIKICAKICAjINiq2LTZgdmK2LEg2KfZhNix2KfYqNi3INin2YTYo9iz2KfYs9mKCiAgRU5DT0RFRF9BUElfVVJMID0gImFIUjBjSE02THk5eVlYY3VaMmwwYUhWaWRYTmxjbU52Ym5SbGJuUXVZMjl0TDIxaGNuZGhibUZrWld4bGRHRm9ZVzR0YzNWa2J5OUJVRWx4TWpNdmNtVm1jeTlvWldGa2N5OXRZV2x1TDJWdFlXbHNMbXB6YjI0PSIKICBBUElfVVJMID0gQmFzZTY0LmRlY29kZTY0KEVOQ09ERURfQVBJX1VSTCkKCiAgQ09NUE9ORU5UUyA9IGJlZ2luCiAgICB1cmwgPSAiaHR0cHM6Ly9tYWhtb3VkZGVzaWduLmNvbS9TS0VUQ0hVUC9jb21wb25lbnRzLVY0Lmpzb24iCiAgICBqc29uX3JhdyA9IFVSSS5vcGVuKHVybCkucmVhZAogICAganNvbl9kYXRhID0gSlNPTi5wYXJzZShqc29uX3JhdykKICAgIGRlY29kZWRfanNvbiA9IEJhc2U2NC5kZWNvZGU2NChqc29uX2RhdGFbImRhdGEiXSkKICAgIEpTT04ucGFyc2UoZGVjb2RlZF9qc29uLCBzeW1ib2xpemVfbmFtZXM6IHRydWUpCiAgcmVzY3VlID0+IGUKICAgIFVJLm1lc3NhZ2Vib3goItmB2LTZhCDYqtit2YXZitmEINin2YTZhdmD2YjZhtin2Ko6ICN7ZS5tZXNzYWdlfSIpCiAgICBbXQogIGVuZAoKICAjID09PT0g2YHYptipINmE2YjYtti5INin2YTZhdmD2YjZhtin2KogPT09PQogIGNsYXNzIENvbXBvbmVudFBsYWNlcgogICAgZGVmIGluaXRpYWxpemUoZGVmaW5pdGlvbiwgbmFtZSkKICAgICAgQGRlZmluaXRpb24gPSBkZWZpbml0aW9uCiAgICAgIEBuYW1lID0gbmFtZQogICAgICBAaXAgPSBTa2V0Y2h1cDo6SW5wdXRQb2ludC5uZXcKICAgIGVuZAoKICAgIGRlZiBvbk1vdXNlTW92ZShmbGFncywgeCwgeSwgdmlldykKICAgICAgQGlwLnBpY2sodmlldywgeCwgeSkKICAgICAgdmlldy5pbnZhbGlkYXRlCiAgICBlbmQKCiAgICBkZWYgZHJhdyh2aWV3KQogICAgICByZXR1cm4gdW5sZXNzIEBpcC52YWxpZD8KICAgICAgdHIgPSBHZW9tOjpUcmFuc2Zvcm1hdGlvbi5uZXcoQGlwLnBvc2l0aW9uKQogICAgICB2aWV3LmRyYXcoR0xfTElORV9TVFJJUCwgW0BpcC5wb3NpdGlvbl0pCiAgICAgIGJlZ2luCiAgICAgICAgcHRzID0gQGRlZmluaXRpb24uYm91bmRzLmNvcm5lcigwLi43KS5tYXAgeyB8cHR8IHB0LnRyYW5zZm9ybSh0cikgfQogICAgICAgIHZpZXcuZHJhdyhHTF9QT0xZR09OLCBwdHMpCiAgICAgIHJlc2N1ZQogICAgICBlbmQKICAgIGVuZAoKICAgIGRlZiBvbkxCdXR0b25Eb3duKGZsYWdzLCB4LCB5LCB2aWV3KQogICAgICBpZiBAaXAudmFsaWQ/CiAgICAgICAgdHIgPSBHZW9tOjpUcmFuc2Zvcm1hdGlvbi5uZXcoQGlwLnBvc2l0aW9uKQogICAgICAgIGluc3RhbmNlID0gU2tldGNodXAuYWN0aXZlX21vZGVsLmVudGl0aWVzLmFkZF9pbnN0YW5jZShAZGVmaW5pdGlvbiwgdHIpCiAgICAgICAgU2tldGNodXAuYWN0aXZlX21vZGVsLnNlbGVjdGlvbi5jbGVhcgogICAgICAgIFNrZXRjaHVwLmFjdGl2ZV9tb2RlbC5zZWxlY3Rpb24uYWRkKGluc3RhbmNlKQogICAgICAgIFNrZXRjaHVwLmFjdGl2ZV9tb2RlbC50b29scy5wb3BfdG9vbAogICAgICAgIFNrZXRjaHVwLnNlbmRfYWN0aW9uKCJzZWxlY3RNb3ZlVG9vbDoiKQogICAgICBlbmQKICAgIGVuZAogIGVuZAoKICBkZWYgc2VsZi5nZXRfZGV2aWNlX2lkCiAgICBwcmVmcyA9IFNrZXRjaHVwLnJlYWRfZGVmYXVsdChQTFVHSU5fTkFNRSwgImRldmljZV9pZCIpCiAgICByZXR1cm4gcHJlZnMgdW5sZXNzIHByZWZzLm5pbD8gfHwgcHJlZnMuZW1wdHk/CiAgICBpZCA9IFNlY3VyZVJhbmRvbS51dWlkCiAgICBTa2V0Y2h1cC53cml0ZV9kZWZhdWx0KFBMVUdJTl9OQU1FLCAiZGV2aWNlX2lkIiwgaWQpCiAgICBpZAogIGVuZAoKICAjID09PT0g2KrZgdi52YrZhCDYp9mE2KXYttin2YHYqSA9PT09CiAgZGVmIHNlbGYuYWN0aXZhdGUoZm9yY2VfcHJvbXB0ID0gdHJ1ZSkKICAgIGVtYWlsID0gU2tldGNodXAucmVhZF9kZWZhdWx0KFBMVUdJTl9OQU1FLCAiZW1haWwiKSB8fCAiIgogICAgbGljZW5zZSA9IFNrZXRjaHVwLnJlYWRfZGVmYXVsdChQTFVHSU5fTkFNRSwgImxpY2Vuc2UiKSB8fCAiIgoKICAgICMg2KXYsNinINmD2KfZhiDYp9mE2KXYrNio2KfYsdmKINij2Ygg2KfZhNit2YLZiNmEINmB2KfYsdi62KnYjCDYp9i32YTYqCDYp9mE2KXYr9iu2KfZhAogICAgaWYgZm9yY2VfcHJvbXB0IHx8IGVtYWlsLmVtcHR5PyB8fCBsaWNlbnNlLmVtcHR5PwogICAgICBpbnB1dCA9IFVJLmlucHV0Ym94KFsi2KfZhNio2LHZitivINin2YTYpdmE2YPYqtix2YjZhtmKIiwgItmD2YTZhdipINin2YTZhdix2YjYsSJdLCBbZW1haWwsIGxpY2Vuc2VdLCAi2KrZgdi52YrZhCBNSERFU0lHTiIpCiAgICAgIHJldHVybiB1bmxlc3MgaW5wdXQKICAgICAgZW1haWwsIGxpY2Vuc2UgPSBpbnB1dAogICAgZW5kCgogICAgIyDYp9mE2KrYrdmC2YIg2YXZhiDYp9mE2KjYsdmK2K8g2KfZhNil2YTZg9iq2LHZiNmG2Yog2YjZg9mE2YXYqSDYp9mE2YXYsdmI2LEg2LnYqNixIEFQSQogICAgdmFsaWQgPSB2ZXJpZnlfY3JlZGVudGlhbHMoZW1haWwsIGxpY2Vuc2UpCgogICAgaWYgdmFsaWQKICAgICAgU2tldGNodXAud3JpdGVfZGVmYXVsdChQTFVHSU5fTkFNRSwgImVtYWlsIiwgZW1haWwpCiAgICAgIFNrZXRjaHVwLndyaXRlX2RlZmF1bHQoUExVR0lOX05BTUUsICJsaWNlbnNlIiwgbGljZW5zZSkKICAgICAgU2tldGNodXAud3JpdGVfZGVmYXVsdChQTFVHSU5fTkFNRSwgImFjdGl2YXRlZF9vbmNlIiwgdHJ1ZSkKICAgICAgVUkubWVzc2FnZWJveCgi2YXYqNix2YjZgyDZitinINmH2YbYr9iz2Kkg2KfZhNil2LbYp9mB2Kkg2LTYutin2YTYqVxu2KrZhSDYqNix2YXYrNipINin2YTYpdi22KfZgdipINio2YjYp9iz2LfYqSDZhdmH2YbYr9izINmF2LHZiNin2YYg2LnYp9iv2YQiKSBpZiBmb3JjZV9wcm9tcHQKICAgICAgdHJ1ZQogICAgZWxzZQogICAgICBVSS5tZXNzYWdlYm94KCLYp9mE2KjZitin2YbYp9iqINi62YTYtyDYrdin2YjZhCDZhdix2Kkg2KrYp9mG2YrYqSDZitinINmH2YbYr9iz2Kkg2KfZiCDZg9mE2YUgMDEyMDQyNzk2MDYiKSBpZiBmb3JjZV9wcm9tcHQKICAgICAgZmFsc2UKICAgIGVuZAogIHJlc2N1ZSA9PiBlCiAgICBpZiBTa2V0Y2h1cC5yZWFkX2RlZmF1bHQoUExVR0lOX05BTUUsICJhY3RpdmF0ZWRfb25jZSIpCiAgICAgIHRydWUKICAgIGVsc2UKICAgICAgVUkubWVzc2FnZWJveCgi2YHYtNmEINin2YTYqtit2YLZgiDZhdmGINin2YTYqNmK2KfZhtin2Ko6ICN7ZS5tZXNzYWdlfSIpIGlmIGZvcmNlX3Byb21wdAogICAgICBmYWxzZQogICAgZW5kCiAgZW5kCgogICMg2K/Yp9mE2Kkg2KfZhNiq2K3ZgtmCINmF2YYg2KfZhNio2LHZitivINin2YTYpdmE2YPYqtix2YjZhtmKINmI2YPZhNmF2Kkg2KfZhNmF2LHZiNixCiAgZGVmIHNlbGYudmVyaWZ5X2NyZWRlbnRpYWxzKGVtYWlsLCBsaWNlbnNlKQogICAgYmVnaW4KICAgICAgdXJpID0gVVJJLnBhcnNlKEFQSV9VUkwpCiAgICAgIGh0dHAgPSBOZXQ6OkhUVFAubmV3KHVyaS5ob3N0LCB1cmkucG9ydCkKICAgICAgaHR0cC51c2Vfc3NsID0gdHJ1ZSBpZiB1cmkuc2NoZW1lID09ICdodHRwcycKICAgICAgCiAgICAgIHJlcXVlc3QgPSBOZXQ6OkhUVFA6OkdldC5uZXcodXJpKQogICAgICByZXNwb25zZSA9IGh0dHAucmVxdWVzdChyZXF1ZXN0KQogICAgICAKICAgICAgaWYgcmVzcG9uc2UuaXNfYT8oTmV0OjpIVFRQU3VjY2VzcykKICAgICAgICAjINiq2K3ZhNmK2YQgSlNPTiDYp9mE2YXYs9iq2YTZhQogICAgICAgIGpzb25fZGF0YSA9IEpTT04ucGFyc2UocmVzcG9uc2UuYm9keSkKICAgICAgICAKICAgICAgICAjINmB2YMg2KrYtNmB2YrYsSDYp9mE2KjZitin2YbYp9iqINmF2YYg2K3ZgtmEIG1haW5fY29kZQogICAgICAgIGlmIGpzb25fZGF0YVsibWFpbl9jb2RlIl0KICAgICAgICAgIGVuY29kZWRfZGF0YSA9IGpzb25fZGF0YVsibWFpbl9jb2RlIl0KICAgICAgICAgIGRlY29kZWRfZGF0YSA9IEJhc2U2NC5kZWNvZGU2NChlbmNvZGVkX2RhdGEpCiAgICAgICAgICBkYXRhID0gSlNPTi5wYXJzZShkZWNvZGVkX2RhdGEpCiAgICAgICAgICAKICAgICAgICAgICMg2KfZhNiq2K3ZgtmCINmF2YYg2KPZhiDYp9mE2KjZitin2YbYp9iqINmF2LXZgdmI2YHYqQogICAgICAgICAgaWYgZGF0YS5pc19hPyhBcnJheSkKICAgICAgICAgICAgIyDYp9mE2KjYrdirINi52YYg2KfZhNio2LHZitivINin2YTYpdmE2YPYqtix2YjZhtmKINmI2YPZhNmF2Kkg2KfZhNmF2LHZiNixINin2YTZhdi32KfYqNmC2KkKICAgICAgICAgICAgdXNlciA9IGRhdGEuZmluZCBkbyB8dXNlcnwgCiAgICAgICAgICAgICAgdXNlcl9lbWFpbCA9IHVzZXJbImVtYWlsIl0KICAgICAgICAgICAgICB1c2VyX3Bhc3N3b3JkID0gdXNlclsicGFzc3dvcmQiXSAKICAgICAgICAgICAgICB1c2VyX2VtYWlsID09IGVtYWlsICYmIHVzZXJfcGFzc3dvcmQgPT0gbGljZW5zZQogICAgICAgICAgICBlbmQKICAgICAgICAgICAgcmV0dXJuICF1c2VyLm5pbD8KICAgICAgICAgIGVsc2UKICAgICAgICAgICAgVUkubWVzc2FnZWJveCgi2KrZhtiz2YrZgiDYp9mE2KjZitin2YbYp9iqINi62YrYsSDYtdit2YrYrSIpCiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgICAgZW5kCiAgICAgICAgZWxzZQogICAgICAgICAgVUkubWVzc2FnZWJveCgi2K3ZgtmEIG1haW5fY29kZSDYutmK2LEg2YXZiNis2YjYryDZgdmKINin2YTYqNmK2KfZhtin2KoiKQogICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgZW5kCiAgICAgIGVsc2UKICAgICAgICBVSS5tZXNzYWdlYm94KCLZgdi02YQg2YHZiiDYp9mE2KfYqti12KfZhCDYqNin2YTYrtin2K/ZhTogI3tyZXNwb25zZS5jb2RlfSIpCiAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgIGVuZAogICAgICAKICAgIHJlc2N1ZSBKU09OOjpQYXJzZXJFcnJvciA9PiBlCiAgICAgIFVJLm1lc3NhZ2Vib3goItiu2LfYoyDZgdmKINiq2K3ZhNmK2YQg2KfZhNio2YrYp9mG2KfYqjogI3tlLm1lc3NhZ2V9IikKICAgICAgcmV0dXJuIGZhbHNlCiAgICByZXNjdWUgPT4gZQogICAgICBVSS5tZXNzYWdlYm94KCLYrti32KMg2YHZiiDYp9mE2KfYqti12KfZhDogI3tlLm1lc3NhZ2V9IikKICAgICAgcmV0dXJuIGZhbHNlCiAgICBlbmQKICBlbmQKCiAgZGVmIHNlbGYuYWN0aXZhdGVkPwogICAgZW1haWwgPSBTa2V0Y2h1cC5yZWFkX2RlZmF1bHQoUExVR0lOX05BTUUsICJlbWFpbCIpCiAgICBsaWNlbnNlID0gU2tldGNodXAucmVhZF9kZWZhdWx0KFBMVUdJTl9OQU1FLCAibGljZW5zZSIpCiAgICAhZW1haWwudG9fcy5lbXB0eT8gJiYgIWxpY2Vuc2UudG9fcy5lbXB0eT8KICBlbmQKCiAgZGVmIHNlbGYuc2hvd19saWJyYXJ5CiAgICAjID09PT0g2KfZhNiq2K3ZgtmCINmF2YYg2KfZhNiq2YHYudmK2YQgPT09PQogICAgdW5sZXNzIGFjdGl2YXRlKGZhbHNlKQogICAgICBhY3RpdmF0ZSh0cnVlKQogICAgICByZXR1cm4KICAgIGVuZAogICAgIyA9PT09INmG2YfYp9mK2Kkg2KfZhNiq2K3ZgtmCID09PT0KCiAgICBkbGcgPSBVSTo6SHRtbERpYWxvZy5uZXcoewogICAgICA6ZGlhbG9nX3RpdGxlID0+ICLZhdmD2KrYqNipINin2YTZhdmD2YjZhtin2KoiLAogICAgICA6cHJlZmVyZW5jZXNfa2V5ID0+ICJtaGRlc2lnbl9saWJyYXJ5IiwKICAgICAgOnNjcm9sbGFibGUgPT4gdHJ1ZSwKICAgICAgOnJlc2l6YWJsZSA9PiB0cnVlLAogICAgICA6d2lkdGggPT4gODAwLAogICAgICA6aGVpZ2h0ID0+IDY1MAogICAgfSkKCiAgICBjYXRlZ29yaWVzID0gQ09NUE9ORU5UUy5tYXAgeyB8Y3wgY1s6Y2F0ZWdvcnldIH0udW5pcQoKICAgIGh0bWwgPSA8PC1IVE1MCiAgICA8aHRtbD48aGVhZD4KICAgICAgPG1ldGEgY2hhcnNldD0iVVRGLTgiPgogICAgICA8bGluayBocmVmPSJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2NzczI/ZmFtaWx5PVRhamF3YWw6d2dodEA0MDA7NzAwJmRpc3BsYXk9c3dhcCIgcmVsPSJzdHlsZXNoZWV0Ij4KICAgICAgPHN0eWxlPgogICAgICAgIGJvZHkge2ZvbnQtZmFtaWx5OidUYWphd2FsJyxzYW5zLXNlcmlmO21hcmdpbjowO2JhY2tncm91bmQ6I2Y5ZjlmOTtwYWRkaW5nOjAgMjBweCA0MHB4O2RpcmVjdGlvbjpydGw7fQogICAgICAgIGhlYWRlciB7ZGlzcGxheTpmbGV4O2FsaWduLWl0ZW1zOmNlbnRlcjtqdXN0aWZ5LWNvbnRlbnQ6c3BhY2UtYmV0d2VlbjtwYWRkaW5nOjIwcHggMDt9CiAgICAgICAgaGVhZGVyIGltZyB7aGVpZ2h0OjUwcHg7Ym9yZGVyLXJhZGl1czo1MCU7fQogICAgICAgIGhlYWRlciBoMiB7bWFyZ2luOjA7Zm9udC1zaXplOjI0cHg7Y29sb3I6IzJlN2QzMjt9CiAgICAgICAgLm1lbnUtdG9nZ2xlIHtjdXJzb3I6cG9pbnRlcjtmb250LXNpemU6MjhweDt1c2VyLXNlbGVjdDpub25lO30KICAgICAgICAuZmlsdGVyIHtkaXNwbGF5Om5vbmU7bWFyZ2luLWJvdHRvbToyMHB4O30KICAgICAgICAuZmlsdGVyIHNlbGVjdCB7Zm9udC1zaXplOjE2cHg7cGFkZGluZzo2cHggMTBweDtib3JkZXItcmFkaXVzOjZweDtib3JkZXI6MXB4IHNvbGlkICNjY2M7fQogICAgICAgIC5ncmlkIHtkaXNwbGF5OmdyaWQ7Z3JpZC10ZW1wbGF0ZS1jb2x1bW5zOnJlcGVhdChhdXRvLWZpbGwsbWlubWF4KDIwMHB4LDFmcikpO2dhcDoyMHB4O30KICAgICAgICAuY2FyZCB7YmFja2dyb3VuZDp3aGl0ZTtib3JkZXItcmFkaXVzOjEycHg7cGFkZGluZzoxMnB4O2JveC1zaGFkb3c6MCA0cHggMTJweCByZ2JhKDAsMCwwLDAuMDgpO3RleHQtYWxpZ246Y2VudGVyO3RyYW5zaXRpb246dHJhbnNmb3JtIDAuM3MgZWFzZSxib3gtc2hhZG93IDAuM3MgZWFzZTt9CiAgICAgICAgLmNhcmQ6aG92ZXIge3RyYW5zZm9ybTp0cmFuc2xhdGVZKC01cHgpO2JveC1zaGFkb3c6MCA4cHggMjBweCByZ2JhKDAsMCwwLDAuMTIpO30KICAgICAgICBpbWcuY29tcG9uZW50LWltZyB7d2lkdGg6MTAwJTtoZWlnaHQ6MjAwcHg7b2JqZWN0LWZpdDpjb3Zlcjtib3JkZXItcmFkaXVzOjhweDt9CiAgICAgICAgaDQge21hcmdpbjoxMHB4IDAgNXB4O2ZvbnQtc2l6ZToxN3B4O2NvbG9yOiMzMzM7fQogICAgICAgIHAge2ZvbnQtc2l6ZToxM3B4O2NvbG9yOiM2NjY7bWFyZ2luOjA7fQogICAgICAgIGJ1dHRvbiB7bWFyZ2luLXRvcDoxMHB4O3BhZGRpbmc6NnB4IDE0cHg7YmFja2dyb3VuZDojNDNhMDQ3O2NvbG9yOndoaXRlO2JvcmRlcjpub25lO2JvcmRlci1yYWRpdXM6NXB4O2N1cnNvcjpwb2ludGVyO3RyYW5zaXRpb246YmFja2dyb3VuZCAwLjNzO30KICAgICAgICBidXR0b246aG92ZXIge2JhY2tncm91bmQ6IzJlN2QzMjt9CiAgICAgICAgZm9vdGVyIHttYXJnaW4tdG9wOjQwcHg7dGV4dC1hbGlnbjpjZW50ZXI7Zm9udC1zaXplOjEycHg7Y29sb3I6Izk5OTt9CiAgICAgIDwvc3R5bGU+CiAgICA8L2hlYWQ+CiAgICA8Ym9keSBvbmNvbnRleHRtZW51PSJyZXR1cm4gZmFsc2UiPgogICAgICA8aGVhZGVyPgogICAgICAgIDxpbWcgc3JjPSJodHRwczovL21haG1vdWRkZXNpZ24uY29tL1NLRVRDSFVQL2NvbXBvbmVudHMvbG9nby5qcGVnIiBhbHQ9IkxvZ28iIC8+CiAgICAgICAgPGgyPtmF2YPYqtio2Kkg2YXZg9mI2YbYp9iqINmF2YfZhtiv2LMg2YXYsdmI2KfZhiDYudin2K/ZhDwvaDI+CiAgICAgICAgPGRpdiBjbGFzcz0ibWVudS10b2dnbGUiIG9uY2xpY2s9InRvZ2dsZU1lbnUoKSI+4piwPC9kaXY+CiAgICAgIDwvaGVhZGVyPgoKICAgICAgPGRpdiBjbGFzcz0iZmlsdGVyIiBpZD0iZmlsdGVyLWJveCI+CiAgICAgICAgPGxhYmVsPgogICAgICAgICAg8J+UjSDYqti12YHZitipINit2LPYqDoKICAgICAgICAgIDxzZWxlY3QgaWQ9ImNhdGVnb3J5IiBvbmNoYW5nZT0iZmlsdGVyQ29tcG9uZW50cygpIj4KICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iYWxsIj7Yp9mE2YPZhDwvb3B0aW9uPgogICAgICAgICAgICAje2NhdGVnb3JpZXMubWFwIHsgfGNhdHwgIjxvcHRpb24gdmFsdWU9JyN7Y2F0fSc+I3tjYXR9PC9vcHRpb24+IiB9LmpvaW59CiAgICAgICAgICA8L3NlbGVjdD4KICAgICAgICA8L2xhYmVsPgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgaWQ9ImNvbXBvbmVudHMiIGNsYXNzPSJncmlkIj48L2Rpdj4KCiAgICAgIDxmb290ZXI+CiAgICAgICAg2KrZhSDYqNix2YXYrNipINmI2KrYtdmF2YrZhSDZh9iw2Ycg2KfZhNil2LbYp9mB2Kkg2KjZiNin2LPYt9ipIDxiPtmF2YfZhtiv2LMg2YXYsdmI2KfZhiDYudin2K/ZhDwvYj4g2YTZhNit2LXZiNmEINi52YTZiSDYp9mE2K/YudmFINin2YTZgdmG2Yog2KPZiCDYp9mE2KXYttin2YHYp9iqINin2YTYrNiv2YrYr9ipINmK2LHYrNmJINin2YTYqtmI2KfYtdmEINi52YTZiSDYp9mE2LHZgtmFOiA8Yj4wMTIwNDI3OTYwNjwvYj48YnI+CiAgICAgICAg8J+TniDZhNmE2KrZiNin2LXZhDogPGI+MDEyMDQyNzk2MDY8L2I+CiAgICAgIDwvZm9vdGVyPgoKICAgICAgPHNjcmlwdD4KZnVuY3Rpb24gbG9hZENvbXBvbmVudChjb21wKXtza2V0Y2h1cC5sb2FkQ29tcG9uZW50QnlEYXRhKEpTT04uc3RyaW5naWZ5KGNvbXApKTt9CmRvY3VtZW50LmFkZEV2ZW50TGlzdGVuZXIoJ2NvbnRleHRtZW51JywgZT0+ZS5wcmV2ZW50RGVmYXVsdCgpKTsKY29uc3QgYWxsQ29tcG9uZW50cz0je0NPTVBPTkVOVFMudG9fanNvbn07CmZ1bmN0aW9uIHJlbmRlcihjKXtsZXQgaD0iIjtjLmZvckVhY2goeD0+e2grPWA8ZGl2IGNsYXNzPSJjYXJkIj48aW1nIGNsYXNzPSJjb21wb25lbnQtaW1nIiBzcmM9IiR7eC5pbWFnZX0iIC8+PGg0PiR7eC5uYW1lfTwvaDQ+PHA+JHt4LmRlc2N9PC9wPjxidXR0b24gb25jbGljaz0nbG9hZENvbXBvbmVudCgke0pTT04uc3RyaW5naWZ5KHgpfSknPtil2K/Ysdin2Kw8L2J1dHRvbj48L2Rpdj5gfSk7ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImNvbXBvbmVudHMiKS5pbm5lckhUTUw9aDt9CmZ1bmN0aW9uIGZpbHRlckNvbXBvbmVudHMoKXtjb25zdCBjYXQ9ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImNhdGVnb3J5IikudmFsdWU7aWYoY2F0PT09ImFsbCIpcmVuZGVyKGFsbENvbXBvbmVudHMpO2Vsc2UgcmVuZGVyKGFsbENvbXBvbmVudHMuZmlsdGVyKGM9PmMuY2F0ZWdvcnk9PT1jYXQpKTt9CmZ1bmN0aW9uIHRvZ2dsZU1lbnUoKXtjb25zdCBiPWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJmaWx0ZXItYm94Iik7Yi5zdHlsZS5kaXNwbGF5PShiLnN0eWxlLmRpc3BsYXk9PT0iYmxvY2siKT8ibm9uZSI6ImJsb2NrIjt9CndpbmRvdy5vbmxvYWQ9KCk9PmZpbHRlckNvbXBvbmVudHMoKTsKICAgICAgPC9zY3JpcHQ+CiAgICA8L2JvZHk+PC9odG1sPgogICAgSFRNTAoKICAgIGRsZy5zZXRfaHRtbChodG1sKQoKICAgIGRsZy5hZGRfYWN0aW9uX2NhbGxiYWNrKCJsb2FkQ29tcG9uZW50QnlEYXRhIikgZG8gfF8sIGNvbXBfanNvbnwKICAgICAgY29tcCA9IEpTT04ucGFyc2UoY29tcF9qc29uLCBzeW1ib2xpemVfbmFtZXM6IHRydWUpCiAgICAgIHVybCA9IFVSSS5wYXJzZShjb21wWzp1cmxdKQogICAgICBoYXNoX25hbWUgPSBEaWdlc3Q6OlNIQTI1Ni5oZXhkaWdlc3QodXJsLnRvX3MpWzAuLjE2XSArICIuc2twIgogICAgICBjYWNoZV9kaXIgPSBGaWxlLmpvaW4oRGlyLnRtcGRpciwgIm1oZGVzaWduX2NhY2hlXzEiKQogICAgICBGaWxlVXRpbHMubWtkaXJfcChjYWNoZV9kaXIpCiAgICAgIGxvY2FsX3BhdGggPSBGaWxlLmpvaW4oY2FjaGVfZGlyLCBoYXNoX25hbWUpCgogICAgICB1bmxlc3MgRmlsZS5leGlzdD8obG9jYWxfcGF0aCkKICAgICAgICBwcm9ncmVzcyA9IFVJOjpIdG1sRGlhbG9nLm5ldyh7CiAgICAgICAgICA6ZGlhbG9nX3RpdGxlID0+ICLYrNin2LHZiiDYp9mE2KrYrdmF2YrZhC4uLiIsCiAgICAgICAgICA6cHJlZmVyZW5jZXNfa2V5ID0+ICJtaGRlc2lnbl9wcm9ncmVzcyIsCiAgICAgICAgICA6c2Nyb2xsYWJsZSA9PiBmYWxzZSwKICAgICAgICAgIDpyZXNpemFibGUgPT4gZmFsc2UsCiAgICAgICAgICA6d2lkdGggPT4gMzAwLAogICAgICAgICAgOmhlaWdodCA9PiAxNTAKICAgICAgICB9KQoKICAgICAgICBwcm9ncmVzcy5zZXRfaHRtbCA8PC1IVE1MCiAgICAgICAgICA8aHRtbD48aGVhZD4KICAgICAgICAgICAgPG1ldGEgY2hhcnNldD0iVVRGLTgiPgogICAgICAgICAgICA8c3R5bGU+CiAgICAgICAgICAgICAgYm9keSB7IGZvbnQtZmFtaWx5OiAnVGFqYXdhbCcsIHNhbnMtc2VyaWY7IHRleHQtYWxpZ246IGNlbnRlcjsgbWFyZ2luOiAwOyBwYWRkaW5nOiAyMHB4OyBkaXJlY3Rpb246IHJ0bDsgfQogICAgICAgICAgICAgIGgzIHsgbWFyZ2luOiAxMHB4IDA7IH0KICAgICAgICAgICAgICAjcHJvZ3Jlc3MtYmFyIHsgd2lkdGg6IDEwMCU7IGhlaWdodDogMjBweDsgYmFja2dyb3VuZDogI2RkZDsgYm9yZGVyLXJhZGl1czogMTBweDsgb3ZlcmZsb3c6IGhpZGRlbjsgbWFyZ2luLXRvcDogMTBweDsgfQogICAgICAgICAgICAgICNwcm9ncmVzcy1maWxsIHsgaGVpZ2h0OiAxMDAlOyB3aWR0aDogMCU7IGJhY2tncm91bmQ6ICM0Y2FmNTA7IHRyYW5zaXRpb246IHdpZHRoIDAuMnMgZWFzZTsgfQogICAgICAgICAgICAgICNwZXJjZW50IHsgbWFyZ2luLXRvcDogOHB4OyBmb250LXNpemU6IDE0cHg7IH0KICAgICAgICAgICAgPC9zdHlsZT4KICAgICAgICAgIDwvaGVhZD48Ym9keT4KICAgICAgICAgICAgPGgzPtis2KfYsdmKINiq2K3ZhdmK2YQg2KfZhNmF2YPZiNmGLi4uPC9oMz4KICAgICAgICAgICAgPGRpdiBpZD0icHJvZ3Jlc3MtYmFyIj48ZGl2IGlkPSJwcm9ncmVzcy1maWxsIj48L2Rpdj48L2Rpdj4KICAgICAgICAgICAgPGRpdiBpZD0icGVyY2VudCI+MCU8L2Rpdj4KICAgICAgICAgIDwvYm9keT48L2h0bWw+CiAgICAgICAgSFRNTAoKICAgICAgICBwcm9ncmVzcy5zaG93CgogICAgICAgIFVJLnN0YXJ0X3RpbWVyKDAuMywgZmFsc2UpIGRvCiAgICAgICAgICBiZWdpbgogICAgICAgICAgICBjb250ZW50X2xlbmd0aCA9IG5pbAogICAgICAgICAgICB0ZW1wZmlsZSA9IFRlbXBmaWxlLm5ldygibWhjb21wb25lbnQiKQoKICAgICAgICAgICAgVVJJLm9wZW4odXJsLAogICAgICAgICAgICAgIGNvbnRlbnRfbGVuZ3RoX3Byb2M6IC0+KGxlbikgeyBjb250ZW50X2xlbmd0aCA9IGxlbiB9LAogICAgICAgICAgICAgIHByb2dyZXNzX3Byb2M6IC0+KGJ5dGVzKSB7CiAgICAgICAgICAgICAgICBwZXJjZW50ID0gY29udGVudF9sZW5ndGggPyAoKGJ5dGVzLnRvX2YgLyBjb250ZW50X2xlbmd0aCkgKiAxMDApLnRvX2kgOiAwCiAgICAgICAgICAgICAgICBwcm9ncmVzcy5leGVjdXRlX3NjcmlwdCgiZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3Byb2dyZXNzLWZpbGwnKS5zdHlsZS53aWR0aCA9ICcje3BlcmNlbnR9JSciKQogICAgICAgICAgICAgICAgcHJvZ3Jlc3MuZXhlY3V0ZV9zY3JpcHQoImRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdwZXJjZW50JykuaW5uZXJUZXh0ID0gJyN7cGVyY2VudH0lJyIpCiAgICAgICAgICAgICAgfQogICAgICAgICAgICApIGRvIHxyZW1vdGVfZmlsZXwKICAgICAgICAgICAgICBJTy5jb3B5X3N0cmVhbShyZW1vdGVfZmlsZSwgdGVtcGZpbGUpCiAgICAgICAgICAgIGVuZAoKICAgICAgICAgICAgdGVtcGZpbGUuY2xvc2UKICAgICAgICAgICAgRmlsZVV0aWxzLm12KHRlbXBmaWxlLnBhdGgsIGxvY2FsX3BhdGgpCiAgICAgICAgICAgIHByb2dyZXNzLmNsb3NlIGlmIHByb2dyZXNzLnZpc2libGU/CgogICAgICAgICAgICBpZiBGaWxlLmV4aXN0Pyhsb2NhbF9wYXRoKSAmJiBGaWxlLnNpemUobG9jYWxfcGF0aCkgPiAwCiAgICAgICAgICAgICAgZGVmaW5pdGlvbiA9IFNrZXRjaHVwLmFjdGl2ZV9tb2RlbC5kZWZpbml0aW9ucy5sb2FkKGxvY2FsX3BhdGgsIGFsbG93X25ld2VyOiB0cnVlKQogICAgICAgICAgICAgIGlmIGRlZmluaXRpb24KICAgICAgICAgICAgICAgIGluc3RhbmNlID0gU2tldGNodXAuYWN0aXZlX21vZGVsLnBsYWNlX2NvbXBvbmVudChkZWZpbml0aW9uKQogICAgICAgICAgICAgICAgVUkubWVzc2FnZWJveCgi2KrZhSDYpdiv2LHYp9isINin2YTZhdmD2YjZhiDYqNmG2KzYp9itIikgdW5sZXNzIGluc3RhbmNlCiAgICAgICAgICAgICAgZWxzZQogICAgICAgICAgICAgICAgVUkubWVzc2FnZWJveCgi2K7Yt9ijINmB2Yog2KrYrdmF2YrZhCDYp9mE2YXZg9mI2YYiKQogICAgICAgICAgICAgIGVuZAogICAgICAgICAgICBlbHNlCiAgICAgICAgICAgICAgVUkubWVzc2FnZWJveCgi2K7Yt9ijINmB2Yog2KrYrdmF2YrZhCDYp9mE2YXZhNmBIikKICAgICAgICAgICAgZW5kCgogICAgICAgICAgcmVzY3VlID0+IGUKICAgICAgICAgICAgdGVtcGZpbGUuY2xvc2UgaWYgdGVtcGZpbGUKICAgICAgICAgICAgdGVtcGZpbGUudW5saW5rIGlmIHRlbXBmaWxlCiAgICAgICAgICAgIHByb2dyZXNzLmNsb3NlIGlmIHByb2dyZXNzLnZpc2libGU/CiAgICAgICAgICAgIFVJLm1lc3NhZ2Vib3goItmB2LTZhCDYqtit2YXZitmEINin2YTZhdmD2YjZhjogI3tlLm1lc3NhZ2V9IikKICAgICAgICAgIGVuZAogICAgICAgIGVuZAogICAgICBlbHNlCiAgICAgICAgYmVnaW4KICAgICAgICAgIGlmIEZpbGUuZXhpc3Q/KGxvY2FsX3BhdGgpICYmIEZpbGUuc2l6ZShsb2NhbF9wYXRoKSA+IDAKICAgICAgICAgICAgZGVmaW5pdGlvbiA9IFNrZXRjaHVwLmFjdGl2ZV9tb2RlbC5kZWZpbml0aW9ucy5sb2FkKGxvY2FsX3BhdGgsIGFsbG93X25ld2VyOiB0cnVlKQogICAgICAgICAgICBpZiBkZWZpbml0aW9uCiAgICAgICAgICAgICAgaW5zdGFuY2UgPSBTa2V0Y2h1cC5hY3RpdmVfbW9kZWwucGxhY2VfY29tcG9uZW50KGRlZmluaXRpb24pCiAgICAgICAgICAgICAgVUkubWVzc2FnZWJveCgi2KrZhSDYpdiv2LHYp9isINin2YTZhdmD2YjZhiDYqNmG2KzYp9itIikgdW5sZXNzIGluc3RhbmNlCiAgICAgICAgICAgIGVsc2UKICAgICAgICAgICAgICBVSS5tZXNzYWdlYm94KCLYrti32KMg2YHZiiDYqtit2YXZitmEINin2YTZhdmD2YjZhiIpCiAgICAgICAgICAgIGVuZAogICAgICAgICAgZWxzZQogICAgICAgICAgICBVSS5tZXNzYWdlYm94KCLYp9mE2YXZhNmBINi62YrYsSDZhdmI2KzZiNivINij2Ygg2YHYp9ix2LoiKQogICAgICAgICAgZW5kCiAgICAgICAgcmVzY3VlID0+IGUKICAgICAgICAgIFVJLm1lc3NhZ2Vib3goItmB2LTZhCDYqtit2YXZitmEINin2YTZhdmD2YjZhjogI3tlLm1lc3NhZ2V9IikKICAgICAgICBlbmQKICAgICAgZW5kCiAgICBlbmQKCiAgICBkbGcuYWRkX2FjdGlvbl9jYWxsYmFjaygiY2xlYXJDb21wb25lbnRDYWNoZSIpIGRvIHxffAogICAgICBiZWdpbgogICAgICAgIGNhY2hlX2RpciA9IEZpbGUuam9pbihEaXIudG1wZGlyLCAibWhkZXNpZ25fY2FjaGVfMSIpCiAgICAgICAgaWYgRmlsZS5kaXJlY3Rvcnk/KGNhY2hlX2RpcikKICAgICAgICAgIEZpbGVVdGlscy5ybV9yZihjYWNoZV9kaXIpCiAgICAgICAgZW5kCiAgICAgICAgVUkubWVzc2FnZWJveCgi2KrZhSDZhdiz2K0g2KfZhNiw2KfZg9ix2Kkg2KfZhNmF2KTZgtiq2Kkg2KjZhtis2KfYrS4iKQogICAgICByZXNjdWUgPT4gZQogICAgICAgIFVJLm1lc3NhZ2Vib3goItmB2LTZhCDZhdiz2K0g2KfZhNiw2KfZg9ix2Kk6ICN7ZS5tZXNzYWdlfSIpCiAgICAgIGVuZAogICAgZW5kCiAgICBkbGcuc2hvdwogIGVuZAoKICB1bmxlc3MgZmlsZV9sb2FkZWQ/KF9fRklMRV9fKQogICAgVUkubWVudSgiUGx1Z2lucyIpLmFkZF9pdGVtKCIje1BMVUdJTl9OQU1FfSAtINiq2YHYudmK2YQiKSB7IGFjdGl2YXRlKHRydWUpIH0KICAgIFVJLm1lbnUoIlBsdWdpbnMiKS5hZGRfaXRlbSgiI3tQTFVHSU5fTkFNRX0gLSDYp9mE2LHZgtmFINin2YTYqtiz2YTYs9mE2YoiKSB7IFVJLm1lc3NhZ2Vib3goItin2YTYsdmC2YUg2KfZhNiq2LPZhNiz2YTZijpcXG4iICsgZ2V0X2RldmljZV9pZCkgfQogICAgVUkubWVudSgiUGx1Z2lucyIpLmFkZF9pdGVtKCJNSERFU0lHTiAtINmF2LPYrSDYp9mE2LDYp9mD2LHYqSDYp9mE2YXYpNmC2KrYqSIpIGRvCiAgICAgIGNhY2hlX2RpciA9IEZpbGUuam9pbihEaXIudG1wZGlyLCAibWhkZXNpZ25fY2FjaGVfMSIpCiAgICAgIGlmIEZpbGUuZGlyZWN0b3J5PyhjYWNoZV9kaXIpCiAgICAgICAgRmlsZVV0aWxzLnJtX3JmKGNhY2hlX2RpcikKICAgICAgZW5kCiAgICAgIFVJLm1lc3NhZ2Vib3goItiq2YUg2YXYs9itINin2YTYsNin2YPYsdipINin2YTZhdik2YLYqtipINio2YbYrNin2K0uIikKICAgIGVuZAoKICAgIHRvb2xiYXIgPSBVSTo6VG9vbGJhci5uZXcoUExVR0lOX05BTUUpCiAgICBjbWQgPSBVSTo6Q29tbWFuZC5uZXcoItmF2YPYqtio2KkgI3tQTFVHSU5fTkFNRX0iKSB7IHNob3dfbGlicmFyeSB9CgogICAgaWNvbl9wYXRoID0gRmlsZS5qb2luKFBMVUdJTl9ESVIsICJpY29uLnBuZyIpIHJlc2N1ZSBuaWwKICAgIGlmIEZpbGUuZXhpc3Q/KGljb25fcGF0aCkKICAgICAgY21kLnNtYWxsX2ljb24gPSBpY29uX3BhdGgKICAgICAgY21kLmxhcmdlX2ljb24gPSBpY29uX3BhdGgKICAgIGVuZAogICAgY21kLnRvb2x0aXAgPSAi2YXZg9iq2KjYqSDZhdmD2YjZhtin2KogTUhERVNJR04iCiAgICB0b29sYmFyLmFkZF9pdGVtKGNtZCkKCiAgICBjbWRfdW5pcXVlID0gVUk6OkNvbW1hbmQubmV3KCLYrNi52YQg2KfZhNmF2YPZiNmG2KfYqiDZgdix2YrYr9ipIikgZG8KICAgICAgbW9kdWxlIE1IREVTSUdOX1VOSVFVSUZZCiAgICAgICAgZGVmIHNlbGYubWFrZV9hbGxfY29tcG9uZW50c191bmlxdWUoZW50aXRpZXMpCiAgICAgICAgICBlbnRpdGllcy5ncmVwKFNrZXRjaHVwOjpDb21wb25lbnRJbnN0YW5jZSkuZWFjaCBkbyB8aW5zdGFuY2V8CiAgICAgICAgICAgIGluc3RhbmNlLm1ha2VfdW5pcXVlCiAgICAgICAgICAgIG1ha2VfYWxsX2NvbXBvbmVudHNfdW5pcXVlKGluc3RhbmNlLmRlZmluaXRpb24uZW50aXRpZXMpCiAgICAgICAgICBlbmQKICAgICAgICBlbmQKICAgICAgICBkZWYgc2VsZi5tYWtlX2RlZmluaXRpb25zX3VuaXF1ZQogICAgICAgICAgbW9kZWwgPSBTa2V0Y2h1cC5hY3RpdmVfbW9kZWwKICAgICAgICAgIG1vZGVsLmRlZmluaXRpb25zLmVhY2ggZG8gfGRlZmluaXRpb258CiAgICAgICAgICAgIG5leHQgaWYgZGVmaW5pdGlvbi5ncm91cD8gfHwgZGVmaW5pdGlvbi5pbWFnZT8KICAgICAgICAgICAgZGVmaW5pdGlvbi5pbnN0YW5jZXMuZWFjaCBkbyB8aW5zdGFuY2V8CiAgICAgICAgICAgICAgaW5zdGFuY2UubWFrZV91bmlxdWUKICAgICAgICAgICAgICBtYWtlX2FsbF9jb21wb25lbnRzX3VuaXF1ZShpbnN0YW5jZS5kZWZpbml0aW9uLmVudGl0aWVzKQogICAgICAgICAgICBlbmQKICAgICAgICAgIGVuZAogICAgICAgIGVuZAogICAgICAgIGRlZiBzZWxmLnJ1bl91bmlxdWlmeQogICAgICAgICAgbW9kZWwgPSBTa2V0Y2h1cC5hY3RpdmVfbW9kZWwKICAgICAgICAgIG1vZGVsLnN0YXJ0X29wZXJhdGlvbigi2KzYudmEINin2YTZhdmD2YjZhtin2Kog2YHYsdmK2K/YqSIsIHRydWUpCiAgICAgICAgICBtYWtlX2FsbF9jb21wb25lbnRzX3VuaXF1ZShtb2RlbC5lbnRpdGllcykKICAgICAgICAgIG1ha2VfZGVmaW5pdGlvbnNfdW5pcXVlCiAgICAgICAgICBtb2RlbC5jb21taXRfb3BlcmF0aW9uCiAgICAgICAgICBVSS5tZXNzYWdlYm94KCLYqtmFINis2LnZhCDYrNmF2YrYuSDYp9mE2YXZg9mI2YbYp9iqINmB2LHZitiv2Kkg2KjZhtis2KfYrS4iKQogICAgICAgIGVuZAogICAgICBlbmQKICAgICAgTUhERVNJR05fVU5JUVVJRlkucnVuX3VuaXF1aWZ5CiAgICBlbmQKICAgIHVuaXF1ZV9pY29uX3BhdGggPSBGaWxlLmpvaW4oUExVR0lOX0RJUiwgInVuaXF1ZV9pY29uLnBuZyIpIHJlc2N1ZSBuaWwKICAgIGlmIEZpbGUuZXhpc3Q/KHVuaXF1ZV9pY29uX3BhdGgpCiAgICAgIGNtZF91bmlxdWUuc21hbGxfaWNvbiA9IHVuaXF1ZV9pY29uX3BhdGgKICAgICAgY21kX3VuaXF1ZS5sYXJnZV9pY29uID0gdW5pcXVlX2ljb25fcGF0aAogICAgZW5kCiAgICBjbWRfdW5pcXVlLnRvb2x0aXAgPSAi2KzYudmEINin2YTZhdmD2YjZhtin2Kog2YHYsdmK2K/YqSDZhNmF2YbYuSDYp9mE2KrZg9ix2KfYsSIKICAgIHRvb2xiYXIuYWRkX2l0ZW0oY21kX3VuaXF1ZSkKCiAgICB0b29sYmFyLnJlc3RvcmUKICAgIGZpbGVfbG9hZGVkKF9fRklMRV9fKQogIGVuZAplbmQ="  // كود روبي مشفر بـ base64
-}
+require 'sketchup.rb'
+require 'net/http'
+require 'uri'
+require 'json'
+require 'securerandom'
+require 'open-uri'
+require 'tmpdir'
+require 'base64'
+require 'tempfile'
+require 'digest'
+require 'fileutils'
+
+module MHDESIGN
+  PLUGIN_NAME = "MHDESIGN"
+  
+  # تشفير الرابط الأساسي
+  ENCODED_API_URL = "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21hcndhbmFkZWxldGFoYW4tc3Vkby9BUElxMjMvcmVmcy9oZWFkcy9tYWluL2VtYWlsLmpzb24="
+  API_URL = Base64.decode64(ENCODED_API_URL)
+
+  COMPONENTS = begin
+    url = "https://mahmouddesign.com/SKETCHUP/components-V4.json"
+    json_raw = URI.open(url).read
+    json_data = JSON.parse(json_raw)
+    decoded_json = Base64.decode64(json_data["data"])
+    JSON.parse(decoded_json, symbolize_names: true)
+  rescue => e
+    UI.messagebox("فشل تحميل المكونات: #{e.message}")
+    []
+  end
+
+  # ==== فئة لوضع المكونات ====
+  class ComponentPlacer
+    def initialize(definition, name)
+      @definition = definition
+      @name = name
+      @ip = Sketchup::InputPoint.new
+    end
+
+    def onMouseMove(flags, x, y, view)
+      @ip.pick(view, x, y)
+      view.invalidate
+    end
+
+    def draw(view)
+      return unless @ip.valid?
+      tr = Geom::Transformation.new(@ip.position)
+      view.draw(GL_LINE_STRIP, [@ip.position])
+      begin
+        pts = @definition.bounds.corner(0..7).map { |pt| pt.transform(tr) }
+        view.draw(GL_POLYGON, pts)
+      rescue
+      end
+    end
+
+    def onLButtonDown(flags, x, y, view)
+      if @ip.valid?
+        tr = Geom::Transformation.new(@ip.position)
+        instance = Sketchup.active_model.entities.add_instance(@definition, tr)
+        Sketchup.active_model.selection.clear
+        Sketchup.active_model.selection.add(instance)
+        Sketchup.active_model.tools.pop_tool
+        Sketchup.send_action("selectMoveTool:")
+      end
+    end
+  end
+
+  def self.get_device_id
+    prefs = Sketchup.read_default(PLUGIN_NAME, "device_id")
+    return prefs unless prefs.nil? || prefs.empty?
+    id = SecureRandom.uuid
+    Sketchup.write_default(PLUGIN_NAME, "device_id", id)
+    id
+  end
+
+  # ==== تفعيل الإضافة ====
+  def self.activate(force_prompt = true)
+    email = Sketchup.read_default(PLUGIN_NAME, "email") || ""
+    license = Sketchup.read_default(PLUGIN_NAME, "license") || ""
+
+    # إذا كان الإجباري أو الحقول فارغة، اطلب الإدخال
+    if force_prompt || email.empty? || license.empty?
+      input = UI.inputbox(["البريد الإلكتروني", "كلمة المرور"], [email, license], "تفعيل MHDESIGN")
+      return unless input
+      email, license = input
+    end
+
+    # التحقق من البريد الإلكتروني وكلمة المرور عبر API
+    valid = verify_credentials(email, license)
+
+    if valid
+      Sketchup.write_default(PLUGIN_NAME, "email", email)
+      Sketchup.write_default(PLUGIN_NAME, "license", license)
+      Sketchup.write_default(PLUGIN_NAME, "activated_once", true)
+      UI.messagebox("مبروك يا هندسة الإضافة شغالة\nتم برمجة الإضافة بواسطة مهندس مروان عادل") if force_prompt
+      true
+    else
+      UI.messagebox("البيانات غلط حاول مرة تانية يا هندسة او كلم 01204279606") if force_prompt
+      false
+    end
+  rescue => e
+    if Sketchup.read_default(PLUGIN_NAME, "activated_once")
+      true
+    else
+      UI.messagebox("فشل التحقق من البيانات: #{e.message}") if force_prompt
+      false
+    end
+  end
+
+  # دالة التحقق من البريد الإلكتروني وكلمة المرور
+  def self.verify_credentials(email, license)
+    begin
+      uri = URI.parse(API_URL)
+      http = Net::HTTP.new(uri.host, uri.port)
+      http.use_ssl = true if uri.scheme == 'https'
+      
+      request = Net::HTTP::Get.new(uri)
+      response = http.request(request)
+      
+      if response.is_a?(Net::HTTPSuccess)
+        # فك تشفير البيانات المستلمة (Base64)
+        encoded_data = response.body.strip
+        decoded_data = Base64.decode64(encoded_data)
+        data = JSON.parse(decoded_data)
+        
+        # التحقق من أن البيانات مصفوفة
+        if data.is_a?(Array)
+          # البحث عن البريد الإلكتروني وكلمة المرور المطابقة
+          user = data.find do |user| 
+            user_email = user["email"]
+            user_password = user["password"] 
+            user_email == email && user_password == license
+          end
+          return !user.nil?
+        else
+          UI.messagebox("تنسيق البيانات غير صحيح")
+          return false
+        end
+      else
+        UI.messagebox("فشل في الاتصال بالخادم: #{response.code}")
+        return false
+      end
+      
+    rescue JSON::ParserError => e
+      UI.messagebox("خطأ في تحليل البيانات: #{e.message}")
+      return false
+    rescue => e
+      UI.messagebox("خطأ في الاتصال: #{e.message}")
+      return false
+    end
+  end
+
+  def self.activated?
+    email = Sketchup.read_default(PLUGIN_NAME, "email")
+    license = Sketchup.read_default(PLUGIN_NAME, "license")
+    !email.to_s.empty? && !license.to_s.empty?
+  end
+
+  def self.show_library
+    # ==== التحقق من التفعيل ====
+    unless activate(false)
+      activate(true)
+      return
+    end
+    # ==== نهاية التحقق ====
+
+    dlg = UI::HtmlDialog.new({
+      :dialog_title => "مكتبة المكونات",
+      :preferences_key => "mhdesign_library",
+      :scrollable => true,
+      :resizable => true,
+      :width => 800,
+      :height => 650
+    })
+
+    categories = COMPONENTS.map { |c| c[:category] }.uniq
+
+    html = <<-HTML
+    <html><head>
+      <meta charset="UTF-8">
+      <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+      <style>
+        body {font-family:'Tajawal',sans-serif;margin:0;background:#f9f9f9;padding:0 20px 40px;direction:rtl;}
+        header {display:flex;align-items:center;justify-content:space-between;padding:20px 0;}
+        header img {height:50px;border-radius:50%;}
+        header h2 {margin:0;font-size:24px;color:#2e7d32;}
+        .menu-toggle {cursor:pointer;font-size:28px;user-select:none;}
+        .filter {display:none;margin-bottom:20px;}
+        .filter select {font-size:16px;padding:6px 10px;border-radius:6px;border:1px solid #ccc;}
+        .grid {display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;}
+        .card {background:white;border-radius:12px;padding:12px;box-shadow:0 4px 12px rgba(0,0,0,0.08);text-align:center;transition:transform 0.3s ease,box-shadow 0.3s ease;}
+        .card:hover {transform:translateY(-5px);box-shadow:0 8px 20px rgba(0,0,0,0.12);}
+        img.component-img {width:100%;height:200px;object-fit:cover;border-radius:8px;}
+        h4 {margin:10px 0 5px;font-size:17px;color:#333;}
+        p {font-size:13px;color:#666;margin:0;}
+        button {margin-top:10px;padding:6px 14px;background:#43a047;color:white;border:none;border-radius:5px;cursor:pointer;transition:background 0.3s;}
+        button:hover {background:#2e7d32;}
+        footer {margin-top:40px;text-align:center;font-size:12px;color:#999;}
+      </style>
+    </head>
+    <body oncontextmenu="return false">
+      <header>
+        <img src="https://mahmouddesign.com/SKETCHUP/components/logo.jpeg" alt="Logo" />
+        <h2>مكتبة مكونات مهندس مروان عادل</h2>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      </header>
+
+      <div class="filter" id="filter-box">
+        <label>
+          🔍 تصفية حسب:
+          <select id="category" onchange="filterComponents()">
+            <option value="all">الكل</option>
+            #{categories.map { |cat| "<option value='#{cat}'>#{cat}</option>" }.join}
+          </select>
+        </label>
+      </div>
+
+      <div id="components" class="grid"></div>
+
+      <footer>
+        تم برمجة وتصميم هذه الإضافة بواسطة <b>مهندس مروان عادل</b> للحصول على الدعم الفني أو الإضافات الجديدة يرجى التواصل على الرقم: <b>01204279606</b><br>
+        📞 للتواصل: <b>01204279606</b>
+      </footer>
+
+      <script>
+function loadComponent(comp){sketchup.loadComponentByData(JSON.stringify(comp));}
+document.addEventListener('contextmenu', e=>e.preventDefault());
+const allComponents=#{COMPONENTS.to_json};
+function render(c){let h="";c.forEach(x=>{h+=`<div class="card"><img class="component-img" src="${x.image}" /><h4>${x.name}</h4><p>${x.desc}</p><button onclick='loadComponent(${JSON.stringify(x)})'>إدراج</button></div>`});document.getElementById("components").innerHTML=h;}
+function filterComponents(){const cat=document.getElementById("category").value;if(cat==="all")render(allComponents);else render(allComponents.filter(c=>c.category===cat));}
+function toggleMenu(){const b=document.getElementById("filter-box");b.style.display=(b.style.display==="block")?"none":"block";}
+window.onload=()=>filterComponents();
+      </script>
+    </body></html>
+    HTML
+
+    dlg.set_html(html)
+
+    dlg.add_action_callback("loadComponentByData") do |_, comp_json|
+      comp = JSON.parse(comp_json, symbolize_names: true)
+      url = URI.parse(comp[:url])
+      hash_name = Digest::SHA256.hexdigest(url.to_s)[0..16] + ".skp"
+      cache_dir = File.join(Dir.tmpdir, "mhdesign_cache_1")
+      FileUtils.mkdir_p(cache_dir)
+      local_path = File.join(cache_dir, hash_name)
+
+      unless File.exist?(local_path)
+        progress = UI::HtmlDialog.new({
+          :dialog_title => "جاري التحميل...",
+          :preferences_key => "mhdesign_progress",
+          :scrollable => false,
+          :resizable => false,
+          :width => 300,
+          :height => 150
+        })
+
+        progress.set_html <<-HTML
+          <html><head>
+            <meta charset="UTF-8">
+            <style>
+              body { font-family: 'Tajawal', sans-serif; text-align: center; margin: 0; padding: 20px; direction: rtl; }
+              h3 { margin: 10px 0; }
+              #progress-bar { width: 100%; height: 20px; background: #ddd; border-radius: 10px; overflow: hidden; margin-top: 10px; }
+              #progress-fill { height: 100%; width: 0%; background: #4caf50; transition: width 0.2s ease; }
+              #percent { margin-top: 8px; font-size: 14px; }
+            </style>
+          </head><body>
+            <h3>جاري تحميل المكون...</h3>
+            <div id="progress-bar"><div id="progress-fill"></div></div>
+            <div id="percent">0%</div>
+          </body></html>
+        HTML
+
+        progress.show
+
+        UI.start_timer(0.3, false) do
+          begin
+            content_length = nil
+            tempfile = Tempfile.new("mhcomponent")
+
+            URI.open(url,
+              content_length_proc: ->(len) { content_length = len },
+              progress_proc: ->(bytes) {
+                percent = content_length ? ((bytes.to_f / content_length) * 100).to_i : 0
+                progress.execute_script("document.getElementById('progress-fill').style.width = '#{percent}%'")
+                progress.execute_script("document.getElementById('percent').innerText = '#{percent}%'")
+              }
+            ) do |remote_file|
+              IO.copy_stream(remote_file, tempfile)
+            end
+
+            tempfile.close
+            FileUtils.mv(tempfile.path, local_path)
+            progress.close if progress.visible?
+
+            if File.exist?(local_path) && File.size(local_path) > 0
+              definition = Sketchup.active_model.definitions.load(local_path, allow_newer: true)
+              if definition
+                instance = Sketchup.active_model.place_component(definition)
+                UI.messagebox("تم إدراج المكون بنجاح") unless instance
+              else
+                UI.messagebox("خطأ في تحميل المكون")
+              end
+            else
+              UI.messagebox("خطأ في تحميل الملف")
+            end
+
+          rescue => e
+            tempfile.close if tempfile
+            tempfile.unlink if tempfile
+            progress.close if progress.visible?
+            UI.messagebox("فشل تحميل المكون: #{e.message}")
+          end
+        end
+      else
+        begin
+          if File.exist?(local_path) && File.size(local_path) > 0
+            definition = Sketchup.active_model.definitions.load(local_path, allow_newer: true)
+            if definition
+              instance = Sketchup.active_model.place_component(definition)
+              UI.messagebox("تم إدراج المكون بنجاح") unless instance
+            else
+              UI.messagebox("خطأ في تحميل المكون")
+            end
+          else
+            UI.messagebox("الملف غير موجود أو فارغ")
+          end
+        rescue => e
+          UI.messagebox("فشل تحميل المكون: #{e.message}")
+        end
+      end
+    end
+
+    dlg.add_action_callback("clearComponentCache") do |_|
+      begin
+        cache_dir = File.join(Dir.tmpdir, "mhdesign_cache_1")
+        if File.directory?(cache_dir)
+          FileUtils.rm_rf(cache_dir)
+        end
+        UI.messagebox("تم مسح الذاكرة المؤقتة بنجاح.")
+      rescue => e
+        UI.messagebox("فشل مسح الذاكرة: #{e.message}")
+      end
+    end
+    dlg.show
+  end
+
+  unless file_loaded?(__FILE__)
+    UI.menu("Plugins").add_item("#{PLUGIN_NAME} - تفعيل") { activate(true) }
+    UI.menu("Plugins").add_item("#{PLUGIN_NAME} - الرقم التسلسلي") { UI.messagebox("الرقم التسلسلي:\\n" + get_device_id) }
+    UI.menu("Plugins").add_item("MHDESIGN - مسح الذاكرة المؤقتة") do
+      cache_dir = File.join(Dir.tmpdir, "mhdesign_cache_1")
+      if File.directory?(cache_dir)
+        FileUtils.rm_rf(cache_dir)
+      end
+      UI.messagebox("تم مسح الذاكرة المؤقتة بنجاح.")
+    end
+
+    toolbar = UI::Toolbar.new(PLUGIN_NAME)
+    cmd = UI::Command.new("مكتبة #{PLUGIN_NAME}") { show_library }
+
+    icon_path = File.join(PLUGIN_DIR, "icon.png") rescue
