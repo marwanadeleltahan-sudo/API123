@@ -1,1 +1,102 @@
-6666
+[
+  {
+    "email": "marwan@gmail.com",
+    "password": "12345FFF6789"
+  },
+  {
+    "email": "dinaahmed@gmail.com",
+    "password": "1243456789"
+  },
+  {
+    "email": "khalidfathy@gmail.com",
+    "password": "123456789"
+  },
+  {
+    "email": "noureen@gmail.com",
+    "password": "123456789"
+  },
+  {
+    "email": "amar@hotmail.com",
+    "password": "123456789"
+  },
+  {
+    "email": "ali@outlook.com",
+    "password": "ali123456"
+  },
+  {
+    "email": "nour@gmail.com",
+    "password": "nour789"
+  },
+  {
+    "email": "hassan@company.com",
+    "password": "hassan2024"
+  },
+  {
+    "email": "fatma@email.com",
+    "password": "fatma123"
+  },
+  {
+    "email": "admin@mhdesign.com",
+    "password": "admin2024"
+  },
+  {
+    "email": "mohamed@design.com",
+    "password": "mohamed123"
+  },
+  {
+    "email": "sara@studio.com",
+    "password": "sara456"
+  },
+  {
+    "email": "ahmed@arch.com",
+    "password": "ahmed789"
+  },
+  {
+    "email": "laila@interior.com",
+    "password": "laila2024"
+  },
+  {
+    "email": "omar@designer.com",
+    "password": "omar123"
+  },
+  {
+    "email": "rana@home.com",
+    "password": "rana456"
+  },
+  {
+    "email": "youssef@build.com",
+    "password": "youssef789"
+  },
+  {
+    "email": "nada@space.com",
+    "password": "nada2024"
+  },
+  {
+    "email": "tarek@art.com",
+    "password": "tarek123"
+  },
+  {
+    "email": "hala@create.com",
+    "password": "hala456"
+  },
+  {
+    "email": "demo@mhdesign.com",
+    "password": "demo123"
+  },
+  {
+    "email": "test@mhdesign.com",
+    "password": "test456"
+  },
+  {
+    "email": "client@mhdesign.com",
+    "password": "client789"
+  },
+  {
+    "email": "user@mhdesign.com",
+    "password": "user2024"
+  },
+  {
+    "email": "design@mhdesign.com",
+    "password": "design123"
+  }
+]
