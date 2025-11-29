@@ -6,5 +6,37 @@
   {
     "email": "amar@gmail.com", 
     "password": "123456789"
+  },
+  {
+    "email": "mohamed@gmail.com",
+    "password": "987654321"
+  },
+  {
+    "email": "ahmed@yahoo.com",
+    "password": "password123"
+  },
+  {
+    "email": "sara@hotmail.com",
+    "password": "sara2024"
+  },
+  {
+    "email": "ali@outlook.com",
+    "password": "ali123456"
+  },
+  {
+    "email": "nour@gmail.com",
+    "password": "nour789"
+  },
+  {
+    "email": "hassan@company.com",
+    "password": "hassan2024"
+  },
+  {
+    "email": "fatma@email.com",
+    "password": "fatma123"
+  },
+  {
+    "email": "admin@mhdesign.com",
+    "password": "admin2024"
   }
 ]
